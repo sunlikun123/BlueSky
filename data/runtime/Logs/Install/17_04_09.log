@@ -1,0 +1,3 @@
+[ 2017-04-09T12:32:25+08:00 ] 127.0.0.1 /index.php?m=install&c=index&a=testdbpwd
+NOTIC: [8] Undefined index: db_name E:\xampp\htdocs\book\ThinkPHP\Library\Think\Db.class.php 第 74 行.
+

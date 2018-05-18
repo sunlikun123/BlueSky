@@ -1,0 +1,75 @@
+<extend name="Public/base" />
+<block name="main-content">
+	<div class="page-content">
+		<!--主题-->
+		<div class="page-header">
+			<h1>
+				您当前操作
+				<small>
+					<i class="ace-icon fa fa-angle-double-right"></i>
+					卖出商品
+				</small>
+			</h1>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<form class="form-horizontal ajaxForm2" name="form0" method="post" action="{:U('books_run_reducekucun')}"  enctype="multipart/form-data">
+                                        <input type="hidden" name="n_id" id="n_id" value="{$n_id}" />
+					<div class="form-group">
+						<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 卖出数量：  </label>
+						<div class="col-sm-10">
+							<input type="number" name="kucun"  placeholder="输入数字" class="col-xs-10 col-sm-6" />
+						</div>
+					</div>
+
+					<div class="space-4"></div>
+                                        <div class="form-group">
+						<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 卖出金额：  </label>
+						<div class="col-sm-10">
+							<input type="number" name="money"  placeholder="输入数字" class="col-xs-10 col-sm-6" />
+						</div>
+					</div>
+
+					<div class="space-4"></div>
+
+					<div class="clearfix form-actions">
+						<div class="col-md-offset-3 col-md-9">
+							<button class="btn btn-info" type="submit">
+								<i class="ace-icon fa fa-check bigger-110"></i>
+								保存
+							</button>
+
+							&nbsp; &nbsp; &nbsp;
+							<button class="btn" type="reset">
+								<i class="ace-icon fa fa-undo bigger-110"></i>
+								重置
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+	</div><!-- /.page-content -->
+</block>
+<block name="scripts">
+	<script>
+			//多图设置
+			$("#pic_list").hide();
+			$("#news_pic_list").click(function(){
+				$("#pic_list").hide();
+			});
+			$("#news_pic_qqlist").click(function(){
+				$("#pic_list").show();
+			});
+			//跳转额外属性
+			$("#pptaddress").hide();
+			$("#news_flag_vaj").click(function(){
+				$("#pptaddress").toggle(400);
+			});
+//			$("#cpprice").hide();
+			$("#news_flag_vacp").click(function(){
+				$("#cpprice").toggle(400);
+			});
+	</script>
+</block>

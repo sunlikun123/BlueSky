@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>主页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="/public/qiantai/css/moblie.css">
+	<link rel="stylesheet" href="/public/qiantai/css/main.css">
+</head>
+<body>
+	<!--头部-->
+	<div class="header">
+		<b>翰林轩书吧</b>
+		<include file="header" />
+	</div>
+	<div class="search">
+		<input class="searchInput" type="text" id="content" placeholder="请输入书名或作者名">
+		<input class="searchBtn" type="button" id="so" value="搜索">
+	</div>
+        <div class="mainBody">
+            <p class="recommend f1">书吧环境</p>
+            <div class="clear"></div>
+            <div class="imgBox">
+                <img src="public/qiantai/images/1.jpg">
+                <img src="public/qiantai/images/2.jpg">
+                <img src="public/qiantai/images/3.jpg">
+                <img src="public/qiantai/images/4.jpg">
+            </div>
+        </div>
+        <div id="sliderSegmentedControl">
+            <div class="mui-scroll clear">
+                    <a class="mui-control-item <if condition='$cateid eq 0'>active</if>" data-id='0' href="{:U(index)}">
+                            全部
+                    </a>
+                <volist name='cate' id='c'>
+                    <a class="mui-control-item <?php echo $cateid==$c['id']?'active':''?>" data-id='{$c.id}' href="{:U(index,array('id'=>$c['id']))}">
+                            {$c.title}
+                    </a>
+                </volist>
+            </div>
+    </div>
+        <style>
+            .clear:after{
+                clear:both
+            }
+            #sliderSegmentedControl{
+                width:100%;
+                overflow-x: scroll;
+                overflow-y: visible;
+                height: 45px!important;
+            }
+            .mui-scroll{
+                /*width:800px;*/
+                min-width:720px;
+                height:30px;
+            }
+            .mui-scroll a{
+                display:block;
+                float:left;
+                width:120px;
+                text-align: center;
+                font-size: 22px;
+                line-height: 30px;
+            }
+            .mui-scroll .active{
+                color: red;
+            }
+            
+        </style>
+	<div class="mainBody">
+            
+		<p class="recommend fl">全部书籍</p>
+		<!--<a class="loadMore fr" href="{:U('Book/hot')}">查看全部>></a>-->
+		<div class="clear"></div>
+		<volist name="hot" id="vo">
+		<li class="mainBodyLi">
+			<a href="javascript:void(0)">
+				<img src="{$vo.news_img}" alt="{$vo.news_title}">
+				<div class="fl mainBodyLidiv">
+					<p class="bookName" data-id="{$vo.n_id}">{$vo.news_title|msubstr=0,8,'utf-8',true}</p>
+					<div class="bookDescription">
+						<p>
+							<span>{$vo.news_auto}</span>
+							<span>{$vo.news_tag}</span>
+							<span>可借:{$vo.books_num}</span>
+							<button data-id="{$vo.n_id}" <if condition="$vo.books_num gt 0"> <else /> disabled</if> >借阅</button>
+						</p>
+						<p>{$vo.news_content|msubstr=0,20,'utf-8',true}</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</a>
+		</li>
+		</volist>
+	</div>
+        <a class='more'>加载更多</a>
+        <style>
+            .more{
+                display:block;
+                width:100px;
+                height:40px;
+                border:1px solid #CCC;
+                background:#FFF;
+                font-size: 22px;
+            }
+        </style>
+	<div class="none"></div>
+    <include file="footer" />
+</body>
+<script>
+$("button").click(function(){
+	var bookid = $(this).attr("data-id");
+	
+	$.ajax({
+		url:"{:U('Book/borrow')}",
+		data:{bookid:bookid},
+		success:function(data){
+                    console.log(data);
+			if(data.status)
+				{
+				    
+				    alert('借阅成功');
+				    location.reload() 
+				}
+                        else{
+                            alert("借阅失败,请登录后再试");
+                        }
+		}
+	})
+})
+$("#so").click(function(){
+	var so = $("#content").val();
+	window.location.href="/index.php?m=Home&c=Book&a=so&so="+so;
+})
+var p = 2;
+$(".more").on('click',function(){
+    cateid = $(".active").attr("data-id");
+    $.ajax({
+		url:"{:U('Book/more')}",
+		data:{cateid:cateid,p:p},
+		success:function(data){
+                    if(data.length == 0){
+                        alert("没有更多内容")
+                    }else{
+                        console.log(data);
+                        str = '';
+                        for (dat in data){
+                            str+='<li class="mainBodyLi">';
+                            str+='<a href="javascript:void(0)">';
+                                str+='<img src="'+data[dat].news_img+'" alt="'+data[dat].news_title+'">';
+			    str+='	<div class="fl mainBodyLidiv">';
+                            str+='		<p class="bookName" data-id="'+data[dat].n_id+'">'+data[dat].news_title+'</p>';
+                            str+='        <div class="bookDescription">';
+				str+='		<p>';
+				str+='			<span>'+data[dat].news_auto+'</span>';
+				str+='			<span>'+data[dat].news_tag+'</span>';
+				str+='			<span>可借:'+data[dat].books_num+'</span>';
+				str+='			<button data-id="'+data[dat].n_id+'"';
+                                if(data[dat].books_num ==0){
+                                    str+='disabled>借阅</button>';
+                                }else{
+                                    str+='>借阅</button>'
+                                }
+				str+='		</p>';
+				str+='		<p>'+data[dat].news_content+'</p>';
+				str+='	</div>';
+				str+='</div>';
+				str+='<div class="clear"></div>';
+			str+='</a></li>';
+                        }
+                        console.log(str);
+                        $('div.mainBody').append(str);
+                        p=p+1;
+                    }
+                    
+			
+		}
+	});
+})
+</script>
+</html>

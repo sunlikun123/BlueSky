@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>修改资料</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="/public/qiantai/css/moblie.css">
+	<link rel="stylesheet" href="/public/qiantai/css/main.css">
+</head>
+<body>
+	<!--头部-->
+	<div class="header">
+		<b>修改资料</b>
+		<a class="toInformation" href="javascript:void(0)">
+			<img src="/public/qiantai/images/xx.png" alt="">
+		</a>
+	</div>
+	<div class="centerBox" >
+	<form action="{:U('Book/saveedit')}" method="post" enctype="multipart/form-data">
+		<li class="tx">
+			<p class="fl lin3">头像</p>
+			<!-- <img class="centerImg fr" src="images/tx.jpeg" alt=""> -->
+			<img class="centerImg fr" id="pic" src="images/tx.jpeg" >
+			<input id="upload" name="file" accept="image/*" type="file" style="display: none"/>
+			<div class="clear"></div>
+		</li>
+		<li>
+		</li>
+		<li>
+			<span class="fl">名字</span>
+			<input class="input fr" type="text" name="nickname" placeholder="请输入昵称">
+			<div class="clear"></div>
+		</li>
+		<li>
+			<span class="fl">性别</span>
+			<input class="input fr" type="text" name="sex" placeholder="请输入性别">
+			<div class="clear"></div>
+		</li>
+		<input class="save" type="button" value="保存">
+	</form>
+	</div>
+	<div class="none"></div>
+	<div class="bottomNav">
+		<a href="{:U('Book/index')}">首页</a>
+		<a href="{:U('Book/hot')}">热点</a>
+		<a href="{:U('Book/hotsell')}">畅销</a>
+		<a class="ce9" href="{:U('Book/my')}">我的</a>
+		<div class="clear"></div>
+	</div>
+	<script src="/public/qiantai/js/jquery-2.2.1.min.js"></script>
+	<script src="/public/qiantai/js/adaption.js"></script>
+	<script src="/public/qiantai/js/main.js"></script>
+	<script>
+		$(function() {
+			$("#pic").click(function () {
+				$("#upload").click(); //隐藏了input:file样式后，点击头像就可以本地上传
+				$("#upload").on("change",function(){
+				var objUrl = getObjectURL(this.files[0]) ; //获取图片的路径，该路径不是图片在本地的路径
+				if (objUrl) {
+					$("#pic").attr("src", objUrl) ; //将图片路径存入src中，显示出图片
+				}
+				});
+			});
+		});
+		 
+		//建立一個可存取到該file的url
+		function getObjectURL(file) {
+			var url = null ;
+			if (window.createObjectURL!=undefined) { // basic
+				url = window.createObjectURL(file) ;
+			} else if (window.URL!=undefined) { 
+				// mozilla(firefox)
+				url = window.URL.createObjectURL(file) ;
+			} else if (window.webkitURL!=undefined) {
+				// webkit or chrome
+				url = window.webkitURL.createObjectURL(file) ;
+			}
+			return url ;
+		}
+		
+		$(".save").click(function (){
+			$("form").submit();
+		})
+	</script>
+</body>
+</html>

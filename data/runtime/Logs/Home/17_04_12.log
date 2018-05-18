@@ -1,0 +1,7 @@
+[ 2017-04-12T00:02:17+08:00 ] 127.0.0.1 /index.php?m=Home&c=Book&a=hotsell
+NOTIC: [8] Undefined variable: v E:\xampp\htdocs\book\data\runtime\Cache\Home\8edeace2a18b1f4996ed51e98919e3ef.php 第 31 行.
+
+[ 2017-04-12T00:02:18+08:00 ] 127.0.0.1 /index.php?m=Home&c=Book&a=hot
+NOTIC: [8] Undefined variable: v E:\xampp\htdocs\book\data\runtime\Cache\Home\2364bec948d3a8afd47a83d00e75c21e.php 第 31 行.
+NOTIC: [8] Undefined variable: v E:\xampp\htdocs\book\data\runtime\Cache\Home\2364bec948d3a8afd47a83d00e75c21e.php 第 31 行.
+

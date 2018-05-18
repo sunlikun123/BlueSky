@@ -1,0 +1,268 @@
+/* 
+*Created By TianYaLi
+*2017-3-24
+*/
+.header{
+	line-height: 2.2rem;
+	padding: 0 0.5rem;
+	font-size: 0.9rem;
+	background-color: #e98110;
+	color: #fff;
+	position: relative;
+}
+.toInformation{
+	position: absolute;
+	top: 0.63rem;
+	right: 0.5rem;
+}
+.toInformation img{
+	width: 1rem;
+}
+.search{
+	width: 15rem;
+	margin: 0.5rem auto;
+	border: 1px solid #e98110;
+	height: 1.6rem;
+}
+.searchInput{
+	width: 70%;
+	float: left;
+	height: 1.5rem;
+	line-height: 1.3rem;
+	border: none;
+	margin-top: 0.02rem;
+	padding-left: 0.5rem;
+	background-color: #fff;
+	font-size: 0.7rem;
+}
+.searchBtn{
+	width: 30%;
+	float: left;
+	font-size: 0.7rem;
+	border: none;
+	background-color: #f6f6f6;
+	line-height: 1.3rem;
+	height: 1.5rem;
+	color: #e98110;
+	text-align: right;
+	padding-right: 0.8rem;
+	background-image: url("../images/sear.png");
+	background-repeat: no-repeat;
+	background-size: 0.8rem;
+	background-position: 20% 55%;
+}
+.mainBody{
+	width: 15rem;
+	margin: 0.5rem auto 0 auto;
+	background-color: #fff;
+	padding: 0.5rem 0;
+}
+.mainBodyLi{
+	padding: 0.5rem 0;
+	width: 14rem;
+	margin: 0 auto;
+	border-bottom: 1px dashed #e4e4e4;
+}
+.mainBodyLidiv{
+	width: 9.5rem;
+}
+.mainBodyLi a img{
+	width: 4rem;
+	height: 5rem;
+	float: left;
+	margin-right: 0.5rem;
+}
+.bookName{
+	font-size: 0.7rem;
+	color: #333;
+	margin-bottom: 0.3rem;
+}
+.bookDescription{
+	font-size: 0.6rem;
+	color: #999;
+}
+.recommend{
+	font-size: 0.8rem;
+	margin-left: 0.5rem;
+}
+.bottomNav{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #fff;
+	height: 2rem;
+}
+.loadMore{
+	color: #e98110;
+	font-size: 0.6rem;
+	margin-right: 0.5rem;
+}
+.none{
+	margin-bottom: 3rem;
+}
+.bottomNav a{
+	font-size: 0.7rem;
+	color: #333;
+	line-height: 2rem;
+	width: 25%;
+	float: left;
+}
+.ce9{
+	color: #e98110!important;
+}
+.disNone{
+	display: none;
+}
+.centerBox{
+	margin: 0.5rem auto;
+}
+.centerBox li{
+	background-color: #fff;
+	padding: 0.5rem;
+	border-bottom: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4;
+	font-size: 0.7rem;
+	margin-bottom: 0.5rem;
+}
+.centerImg{
+	width: 3rem;
+	height: 3rem;
+}
+.tx p{
+	font-size: 0.8rem;
+	margin-left: 0.5rem;
+	line-height: 1.5rem;
+}
+.lin3{
+	line-height: 3rem!important;
+}
+.input{
+	width: 4rem;
+	border: none;
+	font-size: 0.7rem;
+	line-height: 1rem;
+}
+.save{
+	display: block;
+	width: 4rem;
+	line-height: 1.5rem;
+	background-color: #e98110;
+	color: #fff;
+	border: none;
+	font-size: 0.8rem;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+.exit{
+	display: block;
+	text-align: center;
+	color: #333;
+	font-size: 0.7rem;
+}
+.toIndex{
+	font-size: 0.7rem;
+	color: #fff;
+	position: absolute;
+	top: 0.2rem;
+	right: 0.5rem;
+}
+.loginMain{
+	background-color: #fff;
+	width: 15rem;
+	margin: 2.5rem auto 0.5rem auto;
+	padding: 0.5rem;
+}
+.loginInput{
+	width: 14rem;
+	display: block;
+	margin: 0 auto;
+	border: none;
+	background-color: #f6f6f6;
+	line-height: 1.8rem;
+	font-size: 0.7rem;
+	padding-left:2rem;
+	background-repeat: no-repeat;
+	background-position: 0.5rem 50%;
+	background-size: 0.8rem; 
+}
+.loginCart{
+	background-image: url("../images/wd.png");
+}
+.loginPass{
+	background-image: url("../images/suo.png");
+}
+.loginMain li{
+	margin-top: 0.5rem;
+	border-bottom: 1px dashed #e4e4e4;
+	padding-bottom: 0.5rem;
+}
+.loginBtn{
+	width: 14rem;
+	display: block;
+	margin: 0 auto;
+	border: none;
+	background-color: #e98110;
+	line-height: 1.8rem;
+	font-size: 0.8rem;
+	color: #fff;
+}
+.loginReg{
+	width: 14rem;
+	display: block;
+	margin: 0 auto;
+	border: none;
+	background-color: #638c0b;
+	line-height: 1.8rem;
+	font-size: 0.8rem;
+	color: #fff;
+}
+.recordMain{
+	width: 15rem;
+	margin: 0.5rem auto;
+	background-color: #fff;
+	padding: 0.5rem;
+}
+.recordMain li{
+	line-height: 1.5rem;
+	font-size: 0.7rem;
+	border-bottom: 1px dashed #e4e4e4;
+}
+.messageBox{
+	background-color: #fff;
+}
+.messageBox li{
+	float: left;
+	text-align: center;
+	line-height: 1.8rem;
+	font-size: 0.8rem;
+	width: 50%;
+}
+.select{
+	border-bottom: 1px solid #e98110;
+}
+.infoBox{
+	font-size: 0.7rem;
+	padding: 0.5rem;
+	background-color: #fff;
+	margin-top: 0.5rem; 
+}
+.info{
+	width: 10rem;
+	white-space:nowrap;
+	overflow:hidden; 
+	text-overflow:ellipsis;
+}
+.infoBox{
+	line-height: 1.5rem;
+}
+.imgBox{
+    padding:0.5em;
+}
+.imgBox img{
+    width:100%;
+    height:auto;
+    margin-bottom:0.5rem;
+    border:5px solid #e4e4e4;
+}

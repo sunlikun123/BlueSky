@@ -1,0 +1,139 @@
+<extend name="Public/base" />
+<block name="main-content">
+	<div class="page-content">
+		<!--主题-->
+		<div class="page-header">
+			<h1>
+				您当前操作
+				<small>
+					<i class="ace-icon fa fa-angle-double-right"></i>
+					修改公告
+				</small>
+			</h1>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<form class="form-horizontal ajaxForm2" name="form0" method="post" action="{:U('news_runedit')}"  enctype="multipart/form-data">
+					<input type="hidden" name="n_id" id="id" value="{$news_list.n_id}" />
+
+					<div class="form-group">
+						<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 文章名称：  </label>
+						<div class="col-sm-10">
+							<input type="text" name="title" id="news_title"  value="{$news_list.title}"   class="col-xs-10 col-sm-6" required/>
+                                            <span class="help-inline col-xs-12 col-sm-7">
+												<span class="middle" id="resone"></span>
+											</span>
+						</div>
+					</div>
+					<div class="space-4"></div>
+
+			<div class="form-group">
+				<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 文章主内容 </label>
+				<div class="col-sm-10">
+					<script src="__PUBLIC__/ueditor/ueditor.config.js" type="text/javascript"></script>
+					<script src="__PUBLIC__/ueditor/ueditor.all.js" type="text/javascript"></script>
+					<textarea name="content" rows="100%" style="width:100%" id="myEditor">{$news_list.content}</textarea>
+					<script type="text/javascript">
+						var editor = new UE.ui.Editor();
+						editor.render("myEditor");
+					</script>
+				</div>
+			</div>
+			<div class="space-4"></div>
+
+			<div class="clearfix form-actions">
+				<div class="col-md-offset-3 col-md-9">
+					<button class="btn btn-info" type="submit">
+						<i class="ace-icon fa fa-check bigger-110"></i>
+						保存
+					</button>
+
+					&nbsp; &nbsp; &nbsp;
+					<button class="btn" type="reset">
+						<i class="ace-icon fa fa-undo bigger-110"></i>
+						重置
+					</button>
+				</div>
+			</div>
+			</form>
+		</div>
+        <!-- 显示模态框（Modal） -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" style="width:80%">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"
+                                aria-hidden="true">×
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">
+                            操作已上传的多图
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-12">
+
+
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <ul>
+                                            <volist name="pic_list" id="v">
+
+                                                <div class="file-preview-frame" data-fileindex="0" id="id{$i}">
+                                                    <img src="__ROOT__{$v}" class="file-preview-image" style="width:auto;height:160px;">
+                                                    <div class="file-thumbnail-footer">
+                                                        <div class="file-actions">
+                                                            <div class="file-footer-buttons">
+                                                                <a class="red" href="javascript:;" onclick="return delall({$i},'{$v}');" title="回收站">
+                                                                    <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </volist>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="space-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">
+                            若想取消修改，请刷新当前页面
+                        </button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                            关闭
+                        </button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+	</div>
+</block>
+<block name="scripts">
+	<script>
+        $("#news_pic_list").click(function(){
+            $("#pic_list").hide();
+        });
+        $("#news_pic_qqlist").click(function(){
+            $("#pic_list").show();
+        });
+        if(!$("#news_flag_vaj").attr("checked")){
+            $("#pptaddress").hide();
+        }
+        $("#news_flag_vaj").click(function(){
+            $("#pptaddress").toggle(400);
+        });
+        if(!$("#news_flag_vacp").attr("checked")){
+            $("#cpprice").hide();
+        }
+        $("#news_flag_vacp").click(function(){
+            $("#cpprice").toggle(400);
+        });
+	</script>
+</block>

@@ -1,0 +1,177 @@
+[ 2017-04-10T14:57:42+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_edit&n_id=1
+ERR: 模板不存在:./app/Admin/View/Books/books_edit.html
+
+[ 2017-04-10T15:28:29+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_runadd
+NOTIC: [8] Undefined index: pic_one D:\xampp\htdocs\book\app\Admin\Controller\BooksController.class.php 第 100 行.
+NOTIC: [8] Undefined index: pic_all D:\xampp\htdocs\book\app\Admin\Controller\BooksController.class.php 第 100 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\book\app\Admin\Controller\BooksController.class.php 第 139 行.
+NOTIC: [8] Undefined variable: picall_url D:\xampp\htdocs\book\app\Admin\Controller\BooksController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: img_url D:\xampp\htdocs\book\app\Admin\Controller\BooksController.class.php 第 155 行.
+
+[ 2017-04-10T15:41:53+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_list
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T15:42:07+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_list
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T15:42:09+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_list
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T15:42:11+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_list
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T15:42:11+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_list
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T15:42:12+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_list
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T15:42:12+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_list
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T15:42:12+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_list
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T15:42:13+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_list
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T15:42:13+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_list
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T15:42:13+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_list
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T15:54:05+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_runadd
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\book\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant savepath - assumed 'savepath' D:\xampp\htdocs\book\app\Admin\Controller\GoodsController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' D:\xampp\htdocs\book\app\Admin\Controller\GoodsController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant size - assumed 'size' D:\xampp\htdocs\book\app\Admin\Controller\GoodsController.class.php 第 108 行.
+
+[ 2017-04-10T16:01:08+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_edit&n_id=3
+ERR: 模板不存在:./app/Admin/View/Goods/books_edit.html
+
+[ 2017-04-10T16:24:55+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_run_reducekucun
+ERR: 1690:BIGINT UNSIGNED value is out of range in '(`book`.`yf_goods`.`books_num` - 50)'
+ [ SQL语句 ] : UPDATE `yf_goods` SET `books_num`=books_num-50 WHERE ( n_id=3 )
+ERR: 1690:BIGINT UNSIGNED value is out of range in '(`book`.`yf_goods`.`books_num` - 50)'
+ [ SQL语句 ] : UPDATE `yf_goods` SET `books_num`=books_num-50 WHERE ( n_id=3 )
+
+[ 2017-04-10T16:25:14+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_run_reducekucun
+ERR: 1690:BIGINT UNSIGNED value is out of range in '(`book`.`yf_goods`.`books_num` - 50)'
+ [ SQL语句 ] : UPDATE `yf_goods` SET `books_num`=books_num-50 WHERE ( n_id=3 )
+ERR: 1690:BIGINT UNSIGNED value is out of range in '(`book`.`yf_goods`.`books_num` - 50)'
+ [ SQL语句 ] : UPDATE `yf_goods` SET `books_num`=books_num-50 WHERE ( n_id=3 )
+
+[ 2017-04-10T16:26:47+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_runedit
+NOTIC: [8] Undefined index: pic_one D:\xampp\htdocs\book\app\Admin\Controller\GoodsController.class.php 第 177 行.
+NOTIC: [8] Undefined index: pic_all D:\xampp\htdocs\book\app\Admin\Controller\GoodsController.class.php 第 177 行.
+
+[ 2017-04-10T16:50:30+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=log_list
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T16:50:40+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=log_list
+ERR: 1054:Unknown column 'news_time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `yf_goods_inout` ORDER BY `news_time` desc LIMIT 0,10  
+
+[ 2017-04-10T16:58:19+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_run_reducekucun
+ERR: 1146:Table 'book.yf_goods_inout' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yf_goods_inout`
+ERR: 1146:Table 'book.yf_goods_inout' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yf_goods_inout`
+
+[ 2017-04-10T16:58:25+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=books_run_reducekucun
+ERR: 1146:Table 'book.yf_goods_inout' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yf_goods_inout`
+ERR: 1146:Table 'book.yf_goods_inout' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yf_goods_inout`
+
+[ 2017-04-10T17:27:57+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:09+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:10+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:11+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:11+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:11+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:11+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:12+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:12+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:12+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:13+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:13+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:13+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:13+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:13+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:14+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:14+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:14+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:14+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:27+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:28+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:28+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:29+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:29+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:30+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:30+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:30+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:30+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:30+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-04-10T17:28:30+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+ERR: Think\Model:relation方法不存在！
+

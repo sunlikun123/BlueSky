@@ -1,0 +1,9 @@
+[ 2017-04-28T19:55:38+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 106 行.
+
+[ 2017-04-28T19:55:44+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Member&a=member_group_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\9fad0e2b6588a234ba0bfd0263769eae.php 第 106 行.
+
+[ 2017-04-28T19:55:46+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Member&a=member_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\93a4f5eed9d44f8fb0a3dcd80696eb85.php 第 106 行.
+

@@ -1,0 +1,13 @@
+[ 2017-04-09T12:37:16+08:00 ] 127.0.0.1 /index.php?m=Home&c=Register&a=runregister
+NOTIC: [8] Undefined index: email_active E:\xampp\htdocs\book\app\Home\Controller\RegisterController.class.php 第 85 行.
+NOTIC: [8] Undefined index: email_active E:\xampp\htdocs\book\app\Home\Controller\RegisterController.class.php 第 89 行.
+
+[ 2017-04-09T12:42:44+08:00 ] 127.0.0.1 /index.php?m=Home&c=book&a=index
+ERR: 模板不存在:./app/Home/View/Default/Book/index.html
+
+[ 2017-04-09T12:42:50+08:00 ] 127.0.0.1 /index.php?m=Home&c=book&a=index
+ERR: 模板不存在:./app/Home/View/Default/Book/index.html
+
+[ 2017-04-09T12:42:54+08:00 ] 127.0.0.1 /index.php?m=Home&c=book&a=index
+ERR: 模板不存在:./app/Home/View/Default/Book/index.html
+

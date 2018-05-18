@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>公告</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="/public/qiantai/css/moblie.css">
+	<link rel="stylesheet" href="/public/qiantai/css/main.css">
+</head>
+<body>
+	<!--头部-->
+	<div class="header">
+		<b>公告</b>
+		<a class="toIndex" href="{:U('Book/index')}">
+			首页
+		</a>
+	</div>
+<!--	<div class="messageBox">
+		<li class="select">消息</li>
+		<li>公告</li>
+		<div class="clear"></div>
+	</div>-->
+	<div class="infoBox">
+            <volist name='list' id='l'>
+                <a href="{:U('noticedetail',array('id'=>$l['n_id']))}">
+                    <li style="margin-bottom: 20px;">
+                            <h3>{$l.title}</h3>
+                            <span class="fl info">{$l.content}</span>
+                            <span class="fr date">{$l.create_at|date='Y-m-d',###}</span>
+                            <div class="clear"></div>
+                    </li>
+                </a>
+            </volist>
+	</div>
+	<div class="none"></div>
+	<include file="footer" />
+
+</body>
+</html>

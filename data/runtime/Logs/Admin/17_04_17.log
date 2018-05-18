@@ -1,0 +1,116 @@
+[ 2017-04-17T19:24:22+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 106 行.
+
+[ 2017-04-17T19:25:38+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_add
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\067b329e4d6f00410015e6a12d9c9f3a.php 第 106 行.
+
+[ 2017-04-17T19:27:35+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_runadd
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\book\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant savepath - assumed 'savepath' E:\xampp\htdocs\book\app\Admin\Controller\BooksController.class.php 第 113 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' E:\xampp\htdocs\book\app\Admin\Controller\BooksController.class.php 第 113 行.
+NOTIC: [8] Use of undefined constant size - assumed 'size' E:\xampp\htdocs\book\app\Admin\Controller\BooksController.class.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\book\app\Admin\Controller\BooksController.class.php 第 139 行.
+
+[ 2017-04-17T19:27:36+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\a6303065b0b17d9f11caecacbce0c76e.php 第 106 行.
+
+[ 2017-04-17T19:27:47+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_add_kucun&n_id=3
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\5059600394bfc79bc47d78830a7f57a2.php 第 106 行.
+
+[ 2017-04-17T19:27:53+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\a6303065b0b17d9f11caecacbce0c76e.php 第 106 行.
+
+[ 2017-04-17T19:36:58+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_add_kucun&n_id=1
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\5059600394bfc79bc47d78830a7f57a2.php 第 106 行.
+
+[ 2017-04-17T19:37:07+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_edit&n_id=1
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: parentid E:\xampp\htdocs\book\ThinkPHP\Library\Org\Util\Leftnav.class.php 第 58 行.
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\fc084d7cc87aa6c6d588369460620353.php 第 106 行.
+NOTIC: [8] Undefined index: news_titleshort E:\xampp\htdocs\book\data\runtime\Cache\Admin\fc084d7cc87aa6c6d588369460620353.php 第 276 行.
+
+[ 2017-04-17T20:28:52+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\a6303065b0b17d9f11caecacbce0c76e.php 第 106 行.
+
+[ 2017-04-17T20:29:18+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\a6303065b0b17d9f11caecacbce0c76e.php 第 106 行.
+
+[ 2017-04-17T20:29:23+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_list&p=2
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\a6303065b0b17d9f11caecacbce0c76e.php 第 106 行.
+
+[ 2017-04-17T20:29:27+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_list&p=1
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\a6303065b0b17d9f11caecacbce0c76e.php 第 106 行.
+
+[ 2017-04-17T20:29:49+08:00 ] 127.0.0.1 /index.php?m=Admin&c=News&a=news_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\cd192f1cb9e5e19cc2011840df26ad39.php 第 106 行.
+
+[ 2017-04-17T20:30:26+08:00 ] 127.0.0.1 /index.php?m=Admin&c=News&a=news_list&p=2
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\cd192f1cb9e5e19cc2011840df26ad39.php 第 106 行.
+
+[ 2017-04-17T20:30:29+08:00 ] 127.0.0.1 /index.php?m=Admin&c=News&a=news_list&p=1
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\cd192f1cb9e5e19cc2011840df26ad39.php 第 106 行.
+
+[ 2017-04-17T20:30:48+08:00 ] 127.0.0.1 /index.php?m=Admin&c=News&a=news_list&p=2
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\cd192f1cb9e5e19cc2011840df26ad39.php 第 106 行.
+
+[ 2017-04-17T20:30:59+08:00 ] 127.0.0.1 /index.php?m=Admin&c=News&a=news_list&p=1
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\cd192f1cb9e5e19cc2011840df26ad39.php 第 106 行.
+

@@ -1,0 +1,11 @@
+[ 2017-04-15T15:40:07+08:00 ] 127.0.0.1 /index.php?m=Home&c=Book&a=so&so=
+NOTIC: [8] Undefined variable: v E:\xampp\htdocs\book\data\runtime\Cache\Home\506ca348ff48fa2d77d52276fcc469b3.php 第 31 行.
+NOTIC: [8] Undefined variable: v E:\xampp\htdocs\book\data\runtime\Cache\Home\506ca348ff48fa2d77d52276fcc469b3.php 第 31 行.
+
+[ 2017-04-15T17:21:32+08:00 ] 127.0.0.1 /index.php?m=Home&c=Book&a=hot
+NOTIC: [8] Undefined variable: v E:\xampp\htdocs\book\data\runtime\Cache\Home\2364bec948d3a8afd47a83d00e75c21e.php 第 31 行.
+NOTIC: [8] Undefined variable: v E:\xampp\htdocs\book\data\runtime\Cache\Home\2364bec948d3a8afd47a83d00e75c21e.php 第 31 行.
+
+[ 2017-04-15T17:21:40+08:00 ] 127.0.0.1 /index.php?m=Home&c=Book&a=so&so=%E8%AF%BB%E8%80%85
+NOTIC: [8] Undefined variable: v E:\xampp\htdocs\book\data\runtime\Cache\Home\506ca348ff48fa2d77d52276fcc469b3.php 第 31 行.
+

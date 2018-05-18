@@ -1,0 +1,117 @@
+[ 2017-04-12T23:30:52+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 106 行.
+
+[ 2017-04-12T23:31:04+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Borrow&a=index
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\book\app\Admin\Controller\BorrowController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\book\app\Admin\Controller\BorrowController.class.php 第 26 行.
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 106 行.
+NOTIC: [8] Undefined variable: keytype E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 251 行.
+NOTIC: [8] Undefined variable: keytype E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 251 行.
+NOTIC: [8] Undefined variable: keytype E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 252 行.
+NOTIC: [8] Undefined variable: diyflag E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 256 行.
+NOTIC: [8] Undefined variable: opentype_check E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 260 行.
+NOTIC: [8] Undefined variable: opentype_check E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 261 行.
+NOTIC: [8] Undefined variable: sldate E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 270 行.
+NOTIC: [8] Undefined variable: keyy E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 280 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 334 行.
+NOTIC: [8] Undefined index: news_auto E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 339 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 348 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 349 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 359 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 365 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 376 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 384 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 334 行.
+NOTIC: [8] Undefined index: news_auto E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 339 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 348 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 349 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 359 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 365 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 376 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 384 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 334 行.
+NOTIC: [8] Undefined index: news_auto E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 339 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 348 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 349 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 359 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 365 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 376 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 384 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 334 行.
+NOTIC: [8] Undefined index: news_auto E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 339 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 348 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 349 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 359 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 365 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 376 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 384 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 334 行.
+NOTIC: [8] Undefined index: news_auto E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 339 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 348 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 349 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 359 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 365 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 376 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 384 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 334 行.
+NOTIC: [8] Undefined index: news_auto E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 339 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 348 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 349 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 359 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 365 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 376 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 384 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 334 行.
+NOTIC: [8] Undefined index: news_auto E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 339 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 348 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 349 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 359 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 365 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 376 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 384 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 334 行.
+NOTIC: [8] Undefined index: news_auto E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 339 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 344 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 345 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 359 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 365 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 376 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 384 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 334 行.
+NOTIC: [8] Undefined index: news_auto E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 339 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 344 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 345 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 359 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 365 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 376 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 384 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 334 行.
+NOTIC: [8] Undefined index: news_auto E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 339 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 344 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 345 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 359 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 365 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 376 行.
+NOTIC: [8] Undefined index: n_id E:\xampp\htdocs\book\data\runtime\Cache\Admin\9d543dd219145434ed23285575c3f793.php 第 384 行.
+
+[ 2017-04-12T23:31:36+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\a6303065b0b17d9f11caecacbce0c76e.php 第 106 行.
+
+[ 2017-04-12T23:31:39+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\a6303065b0b17d9f11caecacbce0c76e.php 第 106 行.
+
+[ 2017-04-12T23:31:40+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\a6303065b0b17d9f11caecacbce0c76e.php 第 106 行.
+
+[ 2017-04-12T23:31:40+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\a6303065b0b17d9f11caecacbce0c76e.php 第 106 行.
+
+[ 2017-04-12T23:31:40+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\a6303065b0b17d9f11caecacbce0c76e.php 第 106 行.
+
+[ 2017-04-12T23:31:40+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\a6303065b0b17d9f11caecacbce0c76e.php 第 106 行.
+
+[ 2017-04-12T23:31:48+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Books&a=books_list
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\a6303065b0b17d9f11caecacbce0c76e.php 第 106 行.
+

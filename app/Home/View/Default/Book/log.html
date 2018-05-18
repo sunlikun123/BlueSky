@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>消费记录</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="/public/qiantai/css/moblie.css">
+	<link rel="stylesheet" href="/public/qiantai/css/main.css">
+</head>
+<body>
+	<!--头部-->
+	<div class="header">
+		<b>消费记录</b>
+		<include file="header" />
+	</div>
+	<div class="recordMain">
+		<volist name="loglist" id="vo">
+		<li>
+			《{$vo.news_title}》&nbsp;&nbsp;
+			<span>{$vo.borrow_time|date='Y-m-d h:i:s',###}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+			<span style="color:#FF9900;">0.5元</span>
+		</li>
+		</volist>
+	</div>
+	<div class="none"></div>
+	<div class="bottomNav">
+		<a href="{:U('Book/index')}">首页</a>
+		<a href="{:U('Book/hot')}">热点</a>
+		<a href="{:U('Book/hotsell')}">畅销</a>
+		<a href="{:U('Book/my')}">我的</a>
+		<div class="clear"></div>
+	</div>
+	<script src="/public/qiantai/js/jquery-2.2.1.min.js"></script>
+	<script src="/public/qiantai/js/adaption.js"></script>
+	<script src="/public/qiantai/js/main.js"></script>
+</body>
+</html>

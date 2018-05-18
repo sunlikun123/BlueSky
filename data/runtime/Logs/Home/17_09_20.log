@@ -1,0 +1,6 @@
+[ 2017-09-20T16:10:12+08:00 ] ::1 /
+ERR: SQLSTATE[HY000] [1049] Unknown database 'book'
+
+[ 2017-09-20T16:13:25+08:00 ] ::1 /index
+ERR: SQLSTATE[HY000] [1049] Unknown database 'book'
+

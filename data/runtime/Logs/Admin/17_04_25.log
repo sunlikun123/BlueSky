@@ -1,0 +1,14 @@
+[ 2017-04-25T13:17:01+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 106 行.
+
+[ 2017-04-25T13:17:16+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 106 行.
+
+[ 2017-04-25T13:22:29+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Notice&a=news_list
+NOTIC: [8] Undefined variable: keytype E:\xampp\htdocs\book\app\Admin\Controller\NoticeController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: sldate E:\xampp\htdocs\book\app\Admin\Controller\NoticeController.class.php 第 43 行.
+NOTIC: [8] Undefined index: admin_avatar E:\xampp\htdocs\book\data\runtime\Cache\Admin\b3b644f21e71ad4abcc040cffa0f3620.php 第 106 行.
+NOTIC: [8] Undefined index: news_title E:\xampp\htdocs\book\data\runtime\Cache\Admin\b3b644f21e71ad4abcc040cffa0f3620.php 第 311 行.
+NOTIC: [8] Undefined index: news_title E:\xampp\htdocs\book\data\runtime\Cache\Admin\b3b644f21e71ad4abcc040cffa0f3620.php 第 311 行.
+NOTIC: [8] Undefined index: news_title E:\xampp\htdocs\book\data\runtime\Cache\Admin\b3b644f21e71ad4abcc040cffa0f3620.php 第 311 行.
+

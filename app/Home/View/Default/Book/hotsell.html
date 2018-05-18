@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>畅销推荐</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="/public/qiantai/css/moblie.css">
+	<link rel="stylesheet" href="/public/qiantai/css/main.css">
+</head>
+<body>
+	<!--头部-->
+	<div class="header">
+		<b>畅销推荐</b>
+		<include file="header" />
+	</div>
+	<div class="mainBody">
+		<volist name="sell" id="vo">
+		<li class="mainBodyLi">
+			<a href="javascript:void(0)">
+				<img src="{$vo.news_img}" alt="{$vo.news_title}">
+				<div class="fl mainBodyLidiv">
+					<p class="bookName">{$vo.news_title|msubstr=0,8,'utf-8',true}</p>
+					<div class="bookDescription">
+						<p>
+							<span>{$vo.news_auto}</span>
+							<span>{$vo.news_tag}</span>
+							<span>可借:{$vo.books_num}</span>
+							<button data-id="{$vo.n_id}" <if condition="$vo.books_num gt 0"> <else /> disabled</if> >借阅</button>
+						</p>
+						<p>{$vo.news_content|msubstr=0,20,'utf-8',true}</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</a>
+		</li>
+		</volist>
+		
+	</div>
+	
+	<div class="none"></div>
+	<div class="bottomNav">
+		<a href="{:U('Book/index')}">首页</a>
+		<a href="{:U('Book/hot')}">热点</a>
+		<a class="ce9" href="{:U('Book/hotsell')}">畅销</a>
+		<a href="{:U('Book/my')}">我的</a>
+		<div class="clear"></div>
+	</div>
+	<script src="/public/qiantai/js/jquery-2.2.1.min.js"></script>
+	<script src="/public/qiantai/js/adaption.js"></script>
+	<script src="/public/qiantai/js/main.js"></script>
+</body>
+<script>
+$("button").click(function(){
+	var bookid = $(this).attr("data-id");
+	
+	$.ajax({
+		url:"{:U('Book/borrow')}",
+		data:{bookid:bookid},
+		success:function(data){
+			if(data.status)
+				{
+				    
+				    alert('借阅成功');
+				    location.reload() 
+				}
+			else
+				{
+					alert('借阅失败');
+				}
+		}
+	})
+})
+</script>
+</html>
